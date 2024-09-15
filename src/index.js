@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+
+// Component Imports 
 import App from './App';
+// import Demo from './demo';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// Components Render
 root.render(
   <React.StrictMode>
     <App />
+    {/* <Demo /> */}
   </React.StrictMode>
 );
 
